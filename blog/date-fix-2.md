@@ -2,7 +2,7 @@
 title: date fix 2
 path: "/date-fix2"
 date: 2019-10-05T06:00:00Z
-summary: bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+summary: bbbb
 tags:
 - test
 
@@ -12,4 +12,4 @@ tags:
 #   
 ![](./images/mojave-night.jpg)
 
-bsfsrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+bsfsrrrr  rrrrrrr  rrrrrrr  rrr rrrrr rrrrrrrrrrrr
