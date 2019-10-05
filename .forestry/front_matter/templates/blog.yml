@@ -11,6 +11,9 @@ fields:
 - type: datetime
   name: date
   label: date
+  config:
+    date_format: YYYY/MM/DD
+    export_format: YYYY/MM/DD
 - type: textarea
   name: summary
   label: summary
