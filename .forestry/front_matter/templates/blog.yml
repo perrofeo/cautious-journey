@@ -13,7 +13,7 @@ fields:
   label: date
   config:
     date_format: ''
-    export_format: MM/DD/YYYY
+    export_format: ''
 - type: textarea
   name: summary
   label: summary
