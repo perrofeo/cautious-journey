@@ -18,6 +18,7 @@ fields:
   name: tags
   label: tags
 pages:
+- blog/probando-con-el-punto.md
 - blog/seguimos-probando.md
 - blog/test3333333333333333333333.md
 - blog/vamos-a-probar.md
