@@ -21,6 +21,7 @@ fields:
   name: tags
   label: tags
 pages:
+- blog/date-fix-2.md
 - blog/date-fix.md
 - blog/otra-vez-con-puntoooo.md
 - blog/seguimos-probando.md
