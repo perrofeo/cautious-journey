@@ -1,7 +1,7 @@
 ---
 title: date fix 2
 path: "/date-fix2"
-date: 10/05/2019
+date: 2019-10-05T06:00:00Z
 summary: bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 tags:
 - test
