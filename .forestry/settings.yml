@@ -9,8 +9,6 @@ sections:
   label: Blog
   create: all
   match: "**/*"
-  templates:
-  - blog
 upload_dir: blog/images
 public_path: "/blog/images"
 front_matter_path: ''
