@@ -131,5 +131,21 @@ export default {
   }
 }
 </script>
-
+<style>
+  @font-face {
+    font-family: 'Brandon Grotesque Black Italic';
+    src: url('../assets/Brandon_blk_it.woff') format('woff');
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: 'Brandon Grotesque Bold Italic';
+    src: url('../assets/Brandon_bld_it.woff') format('woff');
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: 'Brandon Grotesque Medium Italic';
+    src: url('../assets/Brandon_med_it.woff') format('woff');
+    font-weight: normal;
+  }
+</style>
 <style src="../css/main.css" />
