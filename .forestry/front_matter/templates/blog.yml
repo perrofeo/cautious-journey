@@ -26,6 +26,7 @@ fields:
     maxSize: 250
   label: image
 pages:
+- blog/test.md
 - blog/otra-vez-con-puntoooo.md
 - blog/seguimos-probando.md
 - blog/date-fix-2.md
