@@ -24,7 +24,7 @@ fields:
   type: file
   config:
     maxSize: 250
-  label: Imagen
+  label: image
 pages:
 - blog/otra-vez-con-puntoooo.md
 - blog/seguimos-probando.md
