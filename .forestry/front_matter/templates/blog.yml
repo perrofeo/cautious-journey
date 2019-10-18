@@ -20,7 +20,13 @@ fields:
 - type: list
   name: tags
   label: tags
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: image
 pages:
+- blog/test.md
 - blog/otra-vez-con-puntoooo.md
 - blog/seguimos-probando.md
 - blog/date-fix-2.md
