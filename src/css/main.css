@@ -38,13 +38,13 @@
 }
 
 .theme-dark {
-  --bg-background-primary: #0D2438;
-  --bg-background-secondary: #102C44;
-  --bg-background-tertiary: #1E3951;
+  --bg-background-primary: #000000;
+  --bg-background-secondary: #21221f;
+  --bg-background-tertiary: #1e2124;
 
   --bg-background-form: #1a202c;
 
-  --text-copy-primary: #cbd5e0;
+  --text-copy-primary: #dbd824;
   --text-copy-secondary: #e2e8f0;
 
   --border-border-color-primary:  #1a202c;

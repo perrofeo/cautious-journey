@@ -1,18 +1,41 @@
 <template>
   <Layout>
-    <div class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-16">
-      <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
-        <div class="leading-tight">Gridsome Portfolio Starter</div>
-        <div class="text-green-700 leading-tight">Powered by Vue.js &amp; Tailwind v1</div>
+    <div class="hero sm:bg-cover bg-center mx-auto flex flex-col min-h-screen sm:flex-row justify-between py-40" style="background-image: url(../../DR_portada_0.jpg)">
+      <div class="text-6xl font-bold w-full sm:w-3/5 text-center sm:text-left">
+        <div class="leading-tight flex justify-around text-black">
+          <div class="bg-yellow-400 px-6">Si lo tenemos,<br>se lo llevamos.</div>
+        </div>
+        <div class="text-white flex justify-around leading-tight">
+          <div class="bg-black inline-flex inline-flex-between items-center px-6">
+            <svg class="fill-current w-10 h-10 mr-2" version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="25px" height="25px" viewBox="0 0 25 25" enable-background="new 0 0 25 25" xml:space="preserve">
+<g>
+	<path fill="#fff" d="M0.061,25l1.757-6.423c-1.084-1.877-1.653-4.006-1.652-6.19C0.167,5.557,5.723,0,12.553,0
+		c3.314,0.001,6.424,1.29,8.762,3.632c2.339,2.342,3.628,5.454,3.625,8.764c-0.003,6.83-5.56,12.388-12.387,12.388c0,0,0.001,0,0,0
+		h-0.004c-2.075-0.001-4.111-0.521-5.921-1.508L0.061,25z M6.932,21.034l0.377,0.223c1.58,0.939,3.393,1.437,5.24,1.437h0.004
+		c5.676,0,10.294-4.621,10.296-10.297c0.001-2.752-1.07-5.338-3.013-7.285c-1.944-1.945-4.531-3.018-7.28-3.018
+		c-5.678,0-10.297,4.615-10.298,10.293c0,1.946,0.542,3.843,1.572,5.48l0.245,0.39l-1.04,3.798L6.932,21.034z"/>
+	<path fill="#fff" d="M18.793,15.342c-0.079-0.13-0.284-0.207-0.593-0.361c-0.31-0.155-1.831-0.903-2.116-1.005
+		c-0.282-0.106-0.488-0.159-0.694,0.153c-0.209,0.309-0.801,1.006-0.981,1.213c-0.182,0.208-0.36,0.233-0.67,0.078
+		c-0.311-0.157-1.307-0.481-2.489-1.537c-0.92-0.821-1.541-1.835-1.722-2.144c-0.182-0.309-0.02-0.477,0.137-0.632
+		c0.138-0.138,0.308-0.363,0.464-0.542c0.153-0.18,0.205-0.31,0.308-0.515c0.103-0.208,0.051-0.389-0.023-0.542
+		c-0.079-0.157-0.697-1.68-0.955-2.299C9.205,6.605,8.949,6.686,8.76,6.677c-0.179-0.01-0.388-0.01-0.593-0.01
+		c-0.207,0-0.543,0.077-0.825,0.386C7.058,7.362,6.258,8.112,6.258,9.636c0,1.523,1.109,2.994,1.264,3.202
+		c0.154,0.206,2.182,3.333,5.287,4.672c0.737,0.321,1.314,0.512,1.766,0.653c0.742,0.236,1.415,0.203,1.947,0.123
+		c0.596-0.088,1.835-0.749,2.091-1.471C18.87,16.09,18.87,15.471,18.793,15.342"/>
+</g>
+</svg>
+            Ordenar</div>
+        </div>
       </div>
-      <div class="mt-8 sm:mt-0">
+      <div class="mt-8 sm:mt-0 hidden">
         <g-image src="../../static/developer.svg" alt="hero" class="mx-auto sm:mx-0" />
       </div>
     </div> <!-- end hero -->
 
     <div class="container-inner mx-auto">
-      <p class="text-lg sm:text-xl">This gridsome theme was forked from my <a href="https://andremadarang.com">personal website</a>. I added more features and decided to release it as an open source project. Check it out on <a href="https://github.com/drehimself/gridsome-portfolio-starter">GitHub</a> or check out the <a href="https://www.youtube.com/watch?v=uHo6o1TNQeE">screencast I did</a>. Feel free to use it for your own site or projects! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, repellat. Dolores iure, quas perspiciatis rerum quaerat atque eum repellat autem.</p>
-
+      <div class="flex"><p class="text-yellow-400 bg-black text-lg sm:text-xl">TODOS LOS DÍAS DE 8AM A 1AM EN TODO CURRIDABAT >> +506 8899 1234</p>
+    </div>
       <div class="flex justify-between items-center py-6">
         <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0">
           <g-image src="../../static/mind_map.svg" alt="browser" />
@@ -20,6 +43,46 @@
         <div class="w-1/2 px-8 hidden sm:flex justify-end">
           <g-image src="../../static/code_review.svg" alt="mobile" />
         </div>
+      </div>
+    </div>
+
+    <div class="container-inner overflow-hidden mx-auto">
+      <div class="flex flex-wrap items-center justify-around h-48">
+        <g-link to="/tag/coding/">
+        <button class="bg-white hover:bg-gray-200 text-black border border-black font-bold py-2 px-4 rounded">
+          SNACKS
+        </button>
+        </g-link>
+        <g-link to="/tag/coding/">
+        <button class="bg-white hover:bg-gray-200 text-black border border-black font-bold py-2 px-4 rounded">
+          CERVEZAS
+        </button>
+        </g-link>
+        <g-link to="/tag/coding/">
+        <button class="bg-white hover:bg-gray-200 text-black border border-black font-bold py-2 px-4 rounded">
+          VINOS
+        </button>
+        </g-link>
+        <g-link to="/tag/coding/">
+        <button class="bg-white hover:bg-gray-200 text-black border border-black font-bold py-2 px-4 rounded">
+          BEBIDAS
+        </button>
+        </g-link>
+        <g-link to="/tag/coding/">
+        <button class="bg-white hover:bg-gray-200 text-black border border-black font-bold py-2 px-4 rounded">
+          HIGIENE & LIMPIEZA
+        </button>
+        </g-link>
+        <g-link to="/tag/coding/">
+        <button class="bg-white hover:bg-gray-200 text-black border border-black font-bold py-2 px-4 rounded">
+          PROMOS
+        </button>
+        </g-link>
+        <g-link to="/tag/coding/">
+        <button class="bg-white hover:bg-gray-200 text-black border border-black font-bold py-2 px-4 rounded">
+          Coding
+        </button>
+        </g-link>
       </div>
     </div>
 
@@ -72,7 +135,7 @@
       </div> <!-- end get-to-know me -->
     </div>
 
-    <div class="overflow-x-hidden">
+    <div class="overflow-x-hidden hidden">
       <div class="contact-me bg-background-secondary pt-16">
         <div class="container-inner mx-auto text-xl pb-4 relative">
           <h2 class="font-bold mb-6" id="contact">Contact me:</h2>
