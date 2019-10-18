@@ -6,7 +6,7 @@
         
       <div v-for="post in $page.tag.belongsTo.edges" :key="post.node.id" class="post w-1/1 sm:w-1/3 border-gray-400 border-b mb-12 overflow-x-auto">
         <div class="max-w-sm overflow-hidden shadow-lg mx-6">
-          <g-image class="w-full rounded" src="{{ post.node.image }}" alt="Sunset in the mountains"/>
+          <g-image class="w-full rounded" :src="$post.node.image" alt="Sunset in the mountains"/>
           <div class="px-6 py-4">
         <h2 class="text-3xl font-bold"><g-link :to="post.node.path" class="text-copy-primary">{{ post.node.title }}</g-link></h2>
         <div class="text-copy-secondary mb-4 hidden">
