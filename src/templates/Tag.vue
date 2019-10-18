@@ -56,14 +56,15 @@ query Tag ($id: ID!, $page: Int) {
         node {
           ...on Post {
             title
-            image
             timeToRead
     	      date (format: "MMMM D, YYYY")
             path
             summary
             tags {
               title
+              path
             }
+            image
           }
         }
       }
