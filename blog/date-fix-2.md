@@ -5,7 +5,7 @@ date: 2019-10-05T06:00:00.000+00:00
 summary: bbbb
 tags:
 - test
-image: ''
+image: "./images/background.jpg"
 category: snacks
 
 ---
