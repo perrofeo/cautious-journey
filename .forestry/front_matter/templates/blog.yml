@@ -44,6 +44,7 @@ fields:
       path: 
   label: Category
 pages:
+- blog/category_test/hdhfgcg.md
 - blog/date-fix-2.md
 - blog/test.md
 - blog/otra-vez-con-puntoooo.md
